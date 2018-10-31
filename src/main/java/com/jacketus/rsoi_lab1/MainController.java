@@ -19,13 +19,12 @@ public class MainController {
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String helloPage(ModelMap model) {
         model.addAttribute("my_body", "Hello world!");
-        return "hello";
+        return "hello.jsp";
     }
-/*
+
     @RequestMapping(value = "/hi", method = RequestMethod.GET)
     public String hiPage(ModelMap model) {
         model.addAttribute("my_body", "Hi world!");
-        return "hello";
+        return "hello.jsp";
     }
-*/
 }
