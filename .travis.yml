@@ -1,10 +1,6 @@
 language: java
-
-notifications:
-  email: false
-
-script:
-  mvn clean compile
+sudo: false
+script: mvn clean compile
 
 deploy:
   provider: heroku
