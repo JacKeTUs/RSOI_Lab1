@@ -1,0 +1,12 @@
+language: java
+
+notifications:
+  email: false
+
+script:
+  mvn clean compile
+
+deploy:
+  provider: heroku
+  api_key: 6b1cec9b-73f1-44ca-82ec-8570f8788736
+  app: makarenko-rsoi-lab1
