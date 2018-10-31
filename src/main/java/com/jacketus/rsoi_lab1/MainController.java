@@ -9,23 +9,23 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 
 public class MainController {
-
+/*
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String indexPage(ModelMap model) {
         //model.addAttribute("my_body", "Hello world!");
         return "index";
     }
-
+*/
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public String helloPage(ModelMap model) {
         model.addAttribute("my_body", "Hello world!");
         return "hello";
     }
-
+/*
     @RequestMapping(value = "/hi", method = RequestMethod.GET)
     public String hiPage(ModelMap model) {
         model.addAttribute("my_body", "Hi world!");
         return "hello";
     }
-
+*/
 }
