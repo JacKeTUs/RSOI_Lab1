@@ -3,7 +3,7 @@ sudo: false
 
 jobs:
   include:
-  - stage clean
+  - stage: clean
     script: mvn clean
   - stage: compile
     script: mvn compile
