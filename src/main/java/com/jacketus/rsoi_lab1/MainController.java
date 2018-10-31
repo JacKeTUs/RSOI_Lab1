@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 
 @Controller
-@RequestMapping("/")
+@RequestMapping("/hello")
 public class MainController {
 
     @RequestMapping(method = RequestMethod.GET)
-    public String index(ModelMap model) {
+    public String helloPage(ModelMap model) {
         model.addAttribute("my_body", "Hello world!");
         //model.addAttribute("my_title", "Hello!");
         return "hello";
