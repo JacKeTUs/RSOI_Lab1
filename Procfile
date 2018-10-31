@@ -1,0 +1,1 @@
+web: java -jar -Dserver.port=$PORT target/RSOI_Lab1-0.0.1.jar

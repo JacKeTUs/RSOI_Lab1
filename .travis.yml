@@ -1,16 +1,7 @@
 language: java
 sudo: false
-
-jobs:
-  include:
-  - stage: clean
-    script: mvn clean
-  - stage: compile
-    script: mvn compile
-  - stage: test
-    script: mvn test-compile test
-  - stage: deploy
-    deploy:
-      provider: heroku
-      api_key: f504e0e0-8440-4e82-83dd-b92d942294dd
-      app: makarenko-rsoi-lab1
+script: mvn clean compile test
+deploy:
+  provider: heroku
+  api_key: f504e0e0-8440-4e82-83dd-b92d942294dd
+  app: makarenko-rsoi-lab1
