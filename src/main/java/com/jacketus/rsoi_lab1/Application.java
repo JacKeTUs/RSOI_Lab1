@@ -1,4 +1,4 @@
-package main.java.com.jacketus.rsoi_lab1;
+package com.jacketus.rsoi_lab1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
