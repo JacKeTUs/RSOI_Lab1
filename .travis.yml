@@ -4,5 +4,5 @@ script: mvn clean compile
 
 deploy:
   provider: heroku
-  api_key: 6b1cec9b-73f1-44ca-82ec-8570f8788736
+  api_key: f504e0e0-8440-4e82-83dd-b92d942294dd
   app: makarenko-rsoi-lab1
